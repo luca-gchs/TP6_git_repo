@@ -1,0 +1,40 @@
+== Test ASCIIDOC
+== Titre de niveau 2
+
+
+Un tableau simple 
+
+|===
+| Colonne 1 | Colonne 2 | Colonne 3
+
+| Ligne 1, cellule 1 | Ligne 1, cellule 2 | Ligne 1, cellule 3
+| Ligne 2, cellule 1 | Ligne 2, cellule 2 | Ligne 2, cellule 3
+|===
+
+Un mot en *gras* et un mot en _italique_ et le nom d'une célèbre commande `ls`.
+
+ Extrait d'un code source en C++ :
+
+ [source,cpp]
+ ----
+ int a = 0;
+ ----
+
+ Une commande sous *GNU/Linux* :
+
+ ....
+ $ uname --operating-system
+ GNU/Linux
+ ....
+
+ Une simple liste de langages :
+
+ - C
+ - C++
+ - Python
+
+ Une liste de tâches :
+
+ - [x] déclarer la classe `Point`
+ - [] définir la classe `Point`
+ - [] tester et valider la classe `Point`
